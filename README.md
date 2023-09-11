@@ -2,7 +2,7 @@
 
 ## Feature
 
-Auto generate `CHANGELOG.md` file in root lib.
+auto generate `CHANGELOG.md` file in root lib.
 
 ## Use
 
