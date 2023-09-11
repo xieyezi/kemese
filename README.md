@@ -13,13 +13,19 @@ npx kemese
 ## Example
 
 ```
-### 2023-09-11 16:09
-- chore: add changelog
-- CommitId:  c9687b668250d204c31b08155f0ef233525a2d79
-- Author: xieyezi <202202409@any3.com>
+### 2023-09-11 23:09
+- chore: update denpendences
+- CommitId:  c753956545030017e93dc731076e308c01dca0bd
+- Author: xieyezi <143539829@qq.com>
       
-### 2023-09-11 16:09
+### 2023-09-11 22:09
+- chore: update version
+- CommitId:  03620bf6962d0f0593bf14bd03f8235b3e2f0e60
+- Author: xieyezi <143539829@qq.com>
+      
+### 2023-09-11 22:09
 - feat: init
-- CommitId:  9657ae70411619ce492c4dc99da09f04d6e917ea
-- Author: xieyezi <202202409@any3.com>
+- CommitId:  b0ddcdfbd5a0fb7729ce1c581d907916dc73da44
+- Author: xieyezi <143539829@qq.com>
+      
 ```
