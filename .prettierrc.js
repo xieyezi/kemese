@@ -1,6 +1,6 @@
-const changanAutoConfig = require('@changanauto/prettier-config-preset');
+const xieyeziConfig = require('@xieyezi/prettier-config-preset');
 
 module.exports = {
-...changanAutoConfig,
+...xieyeziConfig,
 // 你的其他配置
 }

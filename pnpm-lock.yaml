@@ -5,15 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
-  '@changanauto/eslint-config-typescript':
-    specifier: ^0.0.30
-    version: 0.0.30(eslint@8.48.0)(typescript@5.2.2)
-  '@changanauto/prettier-config-preset':
-    specifier: ^0.0.30
-    version: 0.0.30(prettier@2.8.4)
   '@types/node':
     specifier: ^18.14.0
     version: 18.14.0
+  '@xieyezi/eslint-config-typescript':
+    specifier: ^2.0.0
+    version: 2.0.0(eslint@8.48.0)(typescript@5.2.2)
+  '@xieyezi/prettier-config-preset':
+    specifier: ^2.0.0
+    version: 2.0.0(prettier@2.8.4)
   bumpp:
     specifier: ^9.2.0
     version: 9.2.0
@@ -262,28 +262,6 @@ packages:
       '@babel/helper-string-parser': 7.22.5
       '@babel/helper-validator-identifier': 7.22.15
       to-fast-properties: 2.0.0
-    dev: true
-
-  /@changanauto/eslint-config-typescript@0.0.30(eslint@8.48.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-sVjCxzD7Wrrg8gx0hV+wM4fhalia0GblcYpFFIYpliqiifLYK7M20aEWIXReKV6weTNTKTwH+WjC8siQSKqH0w==}
-    peerDependencies:
-      eslint: '>=7.4.0'
-      typescript: '>=3.9'
-    dependencies:
-      '@typescript-eslint/eslint-plugin': 6.6.0(@typescript-eslint/parser@6.6.0)(eslint@8.48.0)(typescript@5.2.2)
-      '@typescript-eslint/parser': 6.6.0(eslint@8.48.0)(typescript@5.2.2)
-      eslint: 8.48.0
-      typescript: 5.2.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@changanauto/prettier-config-preset@0.0.30(prettier@2.8.4):
-    resolution: {integrity: sha512-TgQugF3AqQQGGedAl9iUQlWNhUtgFvf9qtUhwmqu7qASULnK6QtxgI5kMRDVyepPIz9r+2TTERDwk5hh1wYjSw==}
-    peerDependencies:
-      prettier: '>=2.6.2'
-    dependencies:
-      prettier: 2.8.4
     dev: true
 
   /@esbuild/android-arm64@0.18.20:
@@ -1118,6 +1096,28 @@ packages:
       diff-sequences: 29.6.3
       loupe: 2.3.6
       pretty-format: 29.6.3
+    dev: true
+
+  /@xieyezi/eslint-config-typescript@2.0.0(eslint@8.48.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-o4JEg+9/lA5uadfuOa/1P3SKiGz9nXFmQmemG4MfDgi/b2ENV+ZpL2bmIlo9mpWtIsIewO7XB9/77bzBA6vjIQ==}
+    peerDependencies:
+      eslint: '>=7.4.0'
+      typescript: '>=3.9'
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 6.6.0(@typescript-eslint/parser@6.6.0)(eslint@8.48.0)(typescript@5.2.2)
+      '@typescript-eslint/parser': 6.6.0(eslint@8.48.0)(typescript@5.2.2)
+      eslint: 8.48.0
+      typescript: 5.2.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@xieyezi/prettier-config-preset@2.0.0(prettier@2.8.4):
+    resolution: {integrity: sha512-ukRNkhynaNX5/DhxoQVKJFYO2hfYOTDrYOSdLeMwuywSuLWzxhLzxa6MJ2zKSqcdr8wfzWGg/udzmqaVscFVxg==}
+    peerDependencies:
+      prettier: '>=2.6.2'
+    dependencies:
+      prettier: 2.8.4
     dev: true
 
   /acorn-jsx@5.3.2(acorn@8.10.0):

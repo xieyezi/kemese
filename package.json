@@ -42,8 +42,8 @@
     "kemese": "node dist/index.mjs"
   },
   "devDependencies": {
-    "@changanauto/eslint-config-typescript": "^0.0.30",
-    "@changanauto/prettier-config-preset": "^0.0.30",
+    "@xieyezi/eslint-config-typescript": "^2.0.0",
+    "@xieyezi/prettier-config-preset": "^2.0.0",
     "@types/node": "^18.14.0",
     "bumpp": "^9.2.0",
     "date-fns": "^2.30.0",
